@@ -125,4 +125,4 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port || process.env.PORT)
+app.listen(process.env.PORT || port)
